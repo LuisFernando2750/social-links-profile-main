@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "Inter";
+    src: url(./assets/fonts/static/Inter-Regular.ttf);
+    font-weight: 400; 
+    /* font-weight é o "peso" da fonte, sendo 400 pra regular e 700 pra bold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(./assets/fonts/static/Inter-SemiBold.ttf);
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(./assets/fonts/static/Inter-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+/* Seletor Global */
+/* Reset de estilos padrões do navegador */
+
+
+ * {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+   
+ }
+
+ body {
+    font-family: "Inter", sans-serif ;
+ }
